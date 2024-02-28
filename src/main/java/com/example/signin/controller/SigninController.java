@@ -1,7 +1,6 @@
 package com.example.signin.controller;
 
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -13,7 +12,6 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.example.signin.model.Signin;
 import com.example.signin.service.SigninService;
 
@@ -40,9 +38,36 @@ public class SigninController {
         return new ResponseEntity<>(client, HttpStatus.OK);
     }
 
+    @GetMapping("/{signinName}")
+    public ResponseEntity<List<Signin>> sortTheRecords(@PathVariable String signinName) {
+        List<Signin> field = signinService.sortTheRecords(signinName);
+        return new ResponseEntity<>(field, HttpStatus.OK);
+    }
+
+    @GetMapping("/{offset}/{pagesize}")
+    public ResponseEntity<List<Signin>> getMethodName(@PathVariable("offset") int offset,
+            @PathVariable("pagesize") int size) {
+        List<Signin> list = signinService.getPaginationSignin(offset, size);
+        if (list.size() == 0) {
+            return new ResponseEntity<>(null, HttpStatus.NOT_FOUND);
+        }
+        return new ResponseEntity<>(list, HttpStatus.OK);
+    }
+
+    @GetMapping("/{offset}/{pagesize}/{field}")
+    public ResponseEntity<List<Signin>> getSortedPagination(@PathVariable("offset") int offset,
+            @PathVariable("pagesize") int size, @PathVariable("field") String field) {
+        List<Signin> list = signinService.getSortedPaginationSignin(offset, size, field);
+        if (list.size() == 0) {
+            return new ResponseEntity<>(null, HttpStatus.NOT_FOUND);
+        }
+        return new ResponseEntity<>(list, HttpStatus.OK);
+    }
+
     @GetMapping("/signin/{signinId}")
     public ResponseEntity<Signin> getById(@PathVariable int signinId) {
         Signin client = signinService.getSigninId(signinId);
+
         if (client != null) {
             return new ResponseEntity<>(client, HttpStatus.OK);
         } else {
