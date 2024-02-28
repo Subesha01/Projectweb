@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.signin.model.Client;
+import com.example.signin.model.Signin;
 import com.example.signin.service.SigninService;
 
 @RestController
@@ -29,20 +29,20 @@ public class SigninController {
 
     @PostMapping("/signin")
     // insert the data
-    public ResponseEntity<Client> createSignin(@RequestBody Client client) {
-        Client createSignin = signinService.createSignin(client);
+    public ResponseEntity<Signin> createSignin(@RequestBody Signin client) {
+        Signin createSignin = signinService.createSignin(client);
         return new ResponseEntity<>(createSignin, HttpStatus.CREATED);
     }
 
     @GetMapping("/signin")
-    public ResponseEntity<List<Client>> getAllSignin() {
-        List<Client> client = signinService.getAllSignin();
+    public ResponseEntity<List<Signin>> getAllSignin() {
+        List<Signin> client = signinService.getAllSignin();
         return new ResponseEntity<>(client, HttpStatus.OK);
     }
 
     @GetMapping("/signin/{signinId}")
-    public ResponseEntity<Client> getById(@PathVariable int signinId) {
-        Client client = signinService.getSigninId(signinId);
+    public ResponseEntity<Signin> getById(@PathVariable int signinId) {
+        Signin client = signinService.getSigninId(signinId);
         if (client != null) {
             return new ResponseEntity<>(client, HttpStatus.OK);
         } else {
@@ -51,7 +51,7 @@ public class SigninController {
     }
 
     @PutMapping("/signin/{id}")
-    public ResponseEntity<Client> update(@PathVariable int id, @RequestBody Client client) {
+    public ResponseEntity<Signin> update(@PathVariable int id, @RequestBody Signin client) {
         return new ResponseEntity<>(signinService.update(id, client), HttpStatus.OK);
     }
 

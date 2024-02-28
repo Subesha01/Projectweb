@@ -5,32 +5,32 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.signin.model.Client;
+import com.example.signin.model.Signin;
 import com.example.signin.repository.SigninRepository;
 
 @Service
 public class SigninService {
     @Autowired
-    private final SigninRepository signinRepository;
+    private final SigninRepository signinRepository;// repository called
 
     public SigninService(SigninRepository signinRepository) {
         this.signinRepository = signinRepository;
     }
 
-    public Client createSignin(Client client) {
+    public Signin createSignin(Signin client) {
         return signinRepository.save(client);
     }
 
-    public List<Client> getAllSignin() {
+    public List<Signin> getAllSignin() {
         return signinRepository.findAll();
     }
 
-    public Client getSigninId(int clientId) {
+    public Signin getSigninId(int clientId) {
         return signinRepository.findById(clientId).orElse(null);
     }
 
-    public Client update(int id, Client client) {
-        Client pros = signinRepository.findById(id).orElse(null);
+    public Signin update(int id, Signin client) {
+        Signin pros = signinRepository.findById(id).orElse(null);
         if (pros != null) {
             pros.setNo(client.getNo());
             pros.setUsername(client.getUsername());
