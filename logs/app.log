@@ -4,3 +4,17 @@
 2024-03-05 12:48:21,791 DEBUG com.example.signin.LoginFilter [restartedMain] Filter 'loginFilter' configured for use
 2024-03-05 12:48:22,073 INFO com.example.signin.SigninApplication [restartedMain] Started SigninApplication in 0.758 seconds (process running for 1007.92)
 2024-03-05 12:48:33,985 INFO com.example.signin.LoginFilter [http-nio-8080-exec-1] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.html; REQUEST PAYLOAD=; RESPONSE CODE=404; RESPONSE
+2024-03-05 12:49:56,769 INFO com.example.signin.SigninApplication [restartedMain] Starting SigninApplication using Java 17.0.10 with PID 23368 (C:\Users\subes\OneDrive\Desktop\signin\target\classes started by subes in C:\Users\subes\OneDrive\Desktop\signin)
+2024-03-05 12:49:56,773 DEBUG com.example.signin.SigninApplication [restartedMain] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-05 12:49:56,773 INFO com.example.signin.SigninApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-05 12:49:58,958 DEBUG com.example.signin.LoginFilter [restartedMain] Filter 'loginFilter' configured for use
+2024-03-05 12:50:01,927 INFO com.example.signin.SigninApplication [restartedMain] Started SigninApplication in 5.653 seconds (process running for 6.625)
+2024-03-05 12:50:07,922 INFO com.example.signin.LoginFilter [http-nio-8080-exec-1] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.html; REQUEST PAYLOAD=; RESPONSE CODE=200; RESPONSE
+2024-03-05 12:50:07,973 INFO com.example.signin.LoginFilter [http-nio-8080-exec-6] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/swagger-ui-standalone-preset.js; REQUEST PAYLOAD=; RESPONSE CODE=200; RESPONSE
+2024-03-05 12:50:07,973 INFO com.example.signin.LoginFilter [http-nio-8080-exec-4] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.css; REQUEST PAYLOAD=; RESPONSE CODE=200; RESPONSE
+2024-03-05 12:50:07,973 INFO com.example.signin.LoginFilter [http-nio-8080-exec-3] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/swagger-ui.css; REQUEST PAYLOAD=; RESPONSE CODE=200; RESPONSE
+2024-03-05 12:50:07,988 INFO com.example.signin.LoginFilter [http-nio-8080-exec-5] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/swagger-ui-bundle.js; REQUEST PAYLOAD=; RESPONSE CODE=200; RESPONSE
+2024-03-05 12:50:08,040 INFO com.example.signin.LoginFilter [http-nio-8080-exec-7] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/swagger-initializer.js; REQUEST PAYLOAD=; RESPONSE CODE=200; RESPONSE
+2024-03-05 12:50:08,379 INFO com.example.signin.LoginFilter [http-nio-8080-exec-10] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/favicon-32x32.png; REQUEST PAYLOAD=; RESPONSE CODE=200; RESPONSE
+2024-03-05 12:50:08,444 INFO com.example.signin.LoginFilter [http-nio-8080-exec-9] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/v3/api-docs/swagger-config; REQUEST PAYLOAD=; RESPONSE CODE=200; RESPONSE
+2024-03-05 12:50:08,939 INFO com.example.signin.LoginFilter [http-nio-8080-exec-2] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/v3/api-docs; REQUEST PAYLOAD=; RESPONSE CODE=200; RESPONSE
