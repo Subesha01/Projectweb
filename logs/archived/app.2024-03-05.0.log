@@ -1,0 +1,38 @@
+2024-03-05 12:41:01,240 INFO com.example.signin.SigninApplication [restartedMain] Starting SigninApplication using Java 17.0.10 with PID 23376 (C:\Users\subes\OneDrive\Desktop\signin\target\classes started by subes in C:\Users\subes\OneDrive\Desktop\signin)
+2024-03-05 12:41:01,250 DEBUG com.example.signin.SigninApplication [restartedMain] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-05 12:41:01,250 INFO com.example.signin.SigninApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-05 12:41:01,579 DEBUG com.example.signin.LoginFilter [restartedMain] Filter 'loginFilter' configured for use
+2024-03-05 12:41:01,807 INFO com.example.signin.SigninApplication [restartedMain] Started SigninApplication in 0.626 seconds (process running for 567.656)
+2024-03-05 12:41:30,820 INFO com.example.signin.SigninApplication [restartedMain] Starting SigninApplication using Java 17.0.10 with PID 23376 (C:\Users\subes\OneDrive\Desktop\signin\target\classes started by subes in C:\Users\subes\OneDrive\Desktop\signin)
+2024-03-05 12:41:30,821 DEBUG com.example.signin.SigninApplication [restartedMain] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-05 12:41:30,821 INFO com.example.signin.SigninApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-05 12:41:31,104 DEBUG com.example.signin.LoginFilter [restartedMain] Filter 'loginFilter' configured for use
+2024-03-05 12:41:31,412 INFO com.example.signin.SigninApplication [restartedMain] Started SigninApplication in 0.652 seconds (process running for 597.26)
+2024-03-05 12:41:32,934 INFO com.example.signin.SigninApplication [restartedMain] Starting SigninApplication using Java 17.0.10 with PID 23376 (C:\Users\subes\OneDrive\Desktop\signin\target\classes started by subes in C:\Users\subes\OneDrive\Desktop\signin)
+2024-03-05 12:41:32,934 DEBUG com.example.signin.SigninApplication [restartedMain] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-05 12:41:32,934 INFO com.example.signin.SigninApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-05 12:41:33,169 DEBUG com.example.signin.LoginFilter [restartedMain] Filter 'loginFilter' configured for use
+2024-03-05 12:41:33,374 INFO com.example.signin.SigninApplication [restartedMain] Started SigninApplication in 0.486 seconds (process running for 599.221)
+2024-03-05 12:42:30,543 INFO com.example.signin.LoginFilter [http-nio-8080-exec-1] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.html; REQUEST PAYLOAD=; RESPONSE CODE=404; RESPONSE
+2024-03-05 12:42:32,246 INFO com.example.signin.LoginFilter [http-nio-8080-exec-5] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.html; REQUEST PAYLOAD=; RESPONSE CODE=404; RESPONSE
+2024-03-05 12:44:13,561 INFO com.example.signin.LoginFilter [http-nio-8080-exec-8] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.html; REQUEST PAYLOAD=; RESPONSE CODE=404; RESPONSE
+2024-03-05 12:44:22,671 INFO com.example.signin.LoginFilter [http-nio-8080-exec-10] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.html; REQUEST PAYLOAD=; RESPONSE CODE=404; RESPONSE
+2024-03-05 12:44:23,625 INFO com.example.signin.LoginFilter [http-nio-8080-exec-1] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.html; REQUEST PAYLOAD=; RESPONSE CODE=404; RESPONSE
+2024-03-05 12:44:23,780 INFO com.example.signin.LoginFilter [http-nio-8080-exec-3] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.html; REQUEST PAYLOAD=; RESPONSE CODE=404; RESPONSE
+2024-03-05 12:44:23,946 INFO com.example.signin.LoginFilter [http-nio-8080-exec-4] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.html; REQUEST PAYLOAD=; RESPONSE CODE=404; RESPONSE
+2024-03-05 12:44:24,096 INFO com.example.signin.LoginFilter [http-nio-8080-exec-5] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.html; REQUEST PAYLOAD=; RESPONSE CODE=404; RESPONSE
+2024-03-05 12:44:24,252 INFO com.example.signin.LoginFilter [http-nio-8080-exec-6] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.html; REQUEST PAYLOAD=; RESPONSE CODE=404; RESPONSE
+2024-03-05 12:44:24,404 INFO com.example.signin.LoginFilter [http-nio-8080-exec-7] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.html; REQUEST PAYLOAD=; RESPONSE CODE=404; RESPONSE
+2024-03-05 12:44:24,563 INFO com.example.signin.LoginFilter [http-nio-8080-exec-8] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.html; REQUEST PAYLOAD=; RESPONSE CODE=404; RESPONSE
+2024-03-05 12:44:24,689 INFO com.example.signin.LoginFilter [http-nio-8080-exec-9] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.html; REQUEST PAYLOAD=; RESPONSE CODE=404; RESPONSE
+2024-03-05 12:44:24,814 INFO com.example.signin.LoginFilter [http-nio-8080-exec-2] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.html; REQUEST PAYLOAD=; RESPONSE CODE=404; RESPONSE
+2024-03-05 12:44:24,957 INFO com.example.signin.LoginFilter [http-nio-8080-exec-10] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.html; REQUEST PAYLOAD=; RESPONSE CODE=404; RESPONSE
+2024-03-05 12:44:25,132 INFO com.example.signin.LoginFilter [http-nio-8080-exec-1] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.html; REQUEST PAYLOAD=; RESPONSE CODE=404; RESPONSE
+2024-03-05 12:44:25,285 INFO com.example.signin.LoginFilter [http-nio-8080-exec-3] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.html; REQUEST PAYLOAD=; RESPONSE CODE=404; RESPONSE
+2024-03-05 12:44:25,404 INFO com.example.signin.LoginFilter [http-nio-8080-exec-4] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.html; REQUEST PAYLOAD=; RESPONSE CODE=404; RESPONSE
+2024-03-05 12:44:25,538 INFO com.example.signin.LoginFilter [http-nio-8080-exec-5] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.html; REQUEST PAYLOAD=; RESPONSE CODE=404; RESPONSE
+2024-03-05 12:44:25,659 INFO com.example.signin.LoginFilter [http-nio-8080-exec-6] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.html; REQUEST PAYLOAD=; RESPONSE CODE=404; RESPONSE
+2024-03-05 12:44:25,718 INFO com.example.signin.LoginFilter [http-nio-8080-exec-7] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.html; REQUEST PAYLOAD=; RESPONSE CODE=404; RESPONSE
+2024-03-05 12:44:25,869 INFO com.example.signin.LoginFilter [http-nio-8080-exec-8] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.html; REQUEST PAYLOAD=; RESPONSE CODE=404; RESPONSE
+2024-03-05 12:44:25,979 INFO com.example.signin.LoginFilter [http-nio-8080-exec-9] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.html; REQUEST PAYLOAD=; RESPONSE CODE=404; RESPONSE
+2024-03-05 12:44:26,196 INFO com.example.signin.LoginFilter [http-nio-8080-exec-2] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.html; REQUEST PAYLOAD=; RESPONSE CODE=404; RESPONSE

@@ -1,0 +1,6 @@
+2024-03-05 12:48:21,371 INFO com.example.signin.SigninApplication [restartedMain] Starting SigninApplication using Java 17.0.10 with PID 23376 (C:\Users\subes\OneDrive\Desktop\signin\target\classes started by subes in C:\Users\subes\OneDrive\Desktop\signin)
+2024-03-05 12:48:21,404 DEBUG com.example.signin.SigninApplication [restartedMain] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-05 12:48:21,405 INFO com.example.signin.SigninApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-05 12:48:21,791 DEBUG com.example.signin.LoginFilter [restartedMain] Filter 'loginFilter' configured for use
+2024-03-05 12:48:22,073 INFO com.example.signin.SigninApplication [restartedMain] Started SigninApplication in 0.758 seconds (process running for 1007.92)
+2024-03-05 12:48:33,985 INFO com.example.signin.LoginFilter [http-nio-8080-exec-1] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.html; REQUEST PAYLOAD=; RESPONSE CODE=404; RESPONSE
